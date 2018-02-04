@@ -1,0 +1,35 @@
+n=8
+x1=20
+x2=40
+x3=50
+x4=70
+x5=100
+x6=110
+x7=120
+x8=150
+y1=8
+y2=9
+y3=11
+y4=11
+y5=12
+y6=14
+y7=15
+y8=16
+xi=x1+x2+x3+x4+x5+x6+x7+x8
+yi=y1+y2+y3+y4+y5+y6+y7+y8
+xiyi=x1+y1+x2+y2+x3+y3+x4+y4+x5+y5+x6+y6+x7+y7+x8+y8
+xixyi=x1*y1+x2*y2+x3*y3+x4*y4+x5*y5+x6*y6+x7*y7+x8*y8
+xi2=x1*x1+x2*x2+x3*x3+x4*x4+x5*x5+x6*x6+x7*x7+x8*x8
+yi2=x1*y1+y2*y2+y3*y3+y4*y4+y5*y5+y6*y6+y7*y7+y8*y8
+print("n=8")
+print("Xi =",xi)
+print("Yi =",yi)
+print("Xi+Yi =",xiyi)
+print("Xi.Yi =",xixyi)
+print("Xi2 =",xi2)
+print("Yi2 =",yi2)
+print("- Xi + Yi(Xi.Yi)=",xiyi*xixyi)
+print("- Xi(Xi2 + Yi2)=",xi*(xi2+yi2))
+print("- Xi2 + Yi2=",xi2+yi2)
+
+
